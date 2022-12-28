@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+          <title> to do list </title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/todo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="css/normalize.css">
+       <link rel="stylesheet" href="css/all.min.css">
+       <link rel="shortcut icon" href="logo.png" type="image/png">
+
+       
+    </head>
+  <body>
+ <!--
+
+   <span><div class="welcome">what </div></span>
+ -->  
+ 
+    <div class="container">
+        
+      <h1 id="header-text" class="fas fa-clipboard-list"> To  Do </h1>
+      <div class="todo">
+          <div class="add-box" id="add-box">
+              <input type="text" placeholder="ADD A TASK .." id="input">
+              <button id="btn" onclick="addList()" class="fas fa-plus"></button>
+              <p id="error-text"></p>
+          </div>
+          <ul class="list" id="list">
+              
+          </ul>
+      </div>
+      
+  </div>
+     
+    <!--
+      <div class="button_cont" >
+           <a class="remove_btn" onclick="removeAll()"> Remove all </a>
+      </div>
+    -->  
+
+
+
+
+
+
+
+
+    <script src="js/todo.js"></script>
+  </body>
+
+</html>
